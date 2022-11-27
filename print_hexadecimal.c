@@ -23,8 +23,6 @@ int print_hexadecimal(unsigned int i)
 * print_hexadecimal_uppercase - prints a hexadecimal in uppercase
 * @i: integer
 * Return: number of characters printed
-* Return: the number of characters printed (excluding the null byte used to
-* end output to strings)
 */
 int print_hexadecimal_uppercase(unsigned int i)
 {
