@@ -1,5 +1,5 @@
-#ifdefine PRINTF_STDIO_H
-#define PRINTF_STDIO_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include "stdarg.h"
 
@@ -127,7 +127,7 @@ int print_rot13(char *s);
 int print_address(void *p);
 
 
-#endif /* PRINTF_STDIO_H */
+#endif
 
 
 
