@@ -101,6 +101,37 @@ int print_rot13(char *s);
 */
 int print_address(void *p);
 
+/**
+* print_percent - prints a percent sign
+* @c: percent sign
+* Return: number of characters printed
+*/
+int print_percent(char c);
+
+/**
+* print_float - prints a float
+* @f: float
+* Return: number of characters printed
+*/
+int print_float(float f);
+
+/**
+* _get_print_func - gets the print function
+* @c: character
+* Return: pointer to the print function
+*/
+int (*_get_print_func(char c))(va_list);
+
+/**
+* struct print - struct for print
+* @type: type of print
+* @f: function to print
+*/
+typedef struct print
+{
+	char *type;
+	int (*f)(va_list);
+} print_t;
 
 #endif
 
