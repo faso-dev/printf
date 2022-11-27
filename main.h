@@ -103,10 +103,9 @@ int print_address(void *p);
 
 /**
 * print_percent - prints a percent sign
-* @c: percent sign
 * Return: number of characters printed
 */
-int print_percent(char c);
+int print_percent(void);
 
 /**
 * print_float - prints a float
