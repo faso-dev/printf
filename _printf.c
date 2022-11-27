@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			i++;
-		 	count += _get_print_func(format[i])(list);
+			count += _get_print_func(format[i])(list);
 		}
 		else
 		{
@@ -29,4 +29,3 @@ int _printf(const char *format, ...)
 	va_end(list);
 	return (count);
 }
-
