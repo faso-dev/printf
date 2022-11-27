@@ -4,8 +4,6 @@
 * print_binary - prints a binary
 * @i: integer
 * Return: number of characters printed
-* Return: the number of characters printed (excluding the null byte used to
-* end output to strings)
 */
 int print_binary(unsigned int i)
 {

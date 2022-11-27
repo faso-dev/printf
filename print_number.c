@@ -4,8 +4,6 @@
 * print_unsigned_integer - prints an unsigned integer
 * @i: integer
 * Return: number of characters printed
-* Return: the number of characters printed (excluding the null byte used to
-* end output to strings)
 */
 int print_unsigned_integer(unsigned int i)
 {
@@ -22,8 +20,6 @@ int print_unsigned_integer(unsigned int i)
 * print_integer - prints an integer
 * @i: integer
 * Return: number of characters printed
-* Return: the number of characters printed (excluding the null byte used to
-* end output to strings)
 */
 int print_integer(int i)
 {
